@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Forma</title>
+	</head>
+	<body>
+		<h1>HTML Form Input Validation Using JavaScript</h1>
+		<form action="" method="post">
+		<div>
+		<label for="client_name"> Name*</label>
+		<input type="text" id="client_name" name="client_name" placeholder="Введите имя" >
+		</div>
+		<div>
+		<label for="client_address"> Address</label>
+		<input type="text" id="client_address" name="client_address" placeholder="Введите адресс">
+		</div>
+		<div>
+		<label for="client_zip_code"> Zip Code*</label>
+		<input type="text" id="client_zip_code" name="client_zip_code" placeholder="Введите zip code">
+		</div>
+		<div>
+		<label>
+		<span>Country*</span>
+		<select name="type">
+		<option value="Please select...">Please select...</option>
+		<option value="Ukraine">Ukraine</option>
+		<option value="Poland">Poland</option>
+		<option value="Azerbaijan">Azerbaijan</option>
+		<option value="United_States">United States</option>
+		</select>
+		</label>
+		</div>
+		<div>
+		<label>
+		<span>Gender*</span>
+		<input type="radio" name="gendre" value="male"> Male
+		<input type="radio" name="gendre" value="female"> Female
+		</label>
+		</div>
+		<div>
+		<label>
+		<span>Preferences*</span>
+		<input type="checkbox" name="extra" value="red">Red
+		<input type="checkbox" name="extra" value="green">Green
+		<input type="checkbox" name="extra" value="blue">Blue
+		</label>
+		</div>
+		<div>
+		<label> Phone*</label>
+		<input type="text" name="client_phone" placeholder="Введите номер" >
+		</div>
+		<div>
+		<label> Email*</label>
+		<input type="text" name="client_email" placeholder="Введите Email" >
+		</div>
+		<div>
+		<label> Password(6-8 characters)*</label>
+		<input type="text" name="client_password" placeholder="Введите Password" >
+		</div>
+		<div>
+		<label> Verify Password*</label>
+		<input type="text" name="client_password" placeholder="Повторите Password" >
+		</div>
+		<input type="submit" name="submit" id=submit" value="SEND">
+		<input type="submit" name="submit" id=submit" value="CLEAR">
+		</div>
+		</form>
+	</body>
+</html>
