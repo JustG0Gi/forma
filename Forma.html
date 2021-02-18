@@ -28,36 +28,33 @@
 		<option value="Azerbaijan">Azerbaijan</option>
 		<option value="United_States">United States</option>
 		</select>
-		
 		</div>
 		<div>
 		<label>Gender*</label>
-		<input type="radio" name="gendre" value="male"> Male
-		<input type="radio" name="gendre" value="female"> Female
-		
+		<label><input type="radio" name="gendre" value="male"> Male</label>
+		<label><input type="radio" name="gendre" value="female"> Female</label>
 		</div>
 		<div>
 		<label>Preferences*</label>
-		<input type="checkbox" name="extra" value="red">Red
-		<input type="checkbox" name="extra" value="green">Green
-		<input type="checkbox" name="extra" value="blue">Blue
-		
+		<label><input type="checkbox" name="extra" value="red">Red</label>
+		<label><input type="checkbox" name="extra" value="green">Green</label>
+		<label><input type="checkbox" name="extra" value="blue">Blue</label>
 		</div>
 		<div>
-		<label> Phone*</label>
-		<input type="text" name="client_phone" placeholder="Введите номер" >
+		<label for="client_phone"> Phone*</label>
+		<input type="text" id="client_phone" name="client_phone" placeholder="Введите номер" >
 		</div>
 		<div>
-		<label> Email*</label>
-		<input type="text" name="client_email" placeholder="Введите Email" >
+		<label for="client_email"> Email*</label>
+		<input type="text" id="client_email" name="client_email" placeholder="Введите Email" >
 		</div>
 		<div>
-		<label> Password(6-8 characters)*</label>
-		<input type="text" name="client_password" placeholder="Введите Password" >
+		<label for="client_password"> Password(6-8 characters)*</label>
+		<input type="text" id="client_password" name="client_password" placeholder="Введите Password" >
 		</div>
 		<div>
-		<label> Verify Password*</label>
-		<input type="text" name="client_password" placeholder="Повторите Password" >
+		<label for="client_password"> Verify Password*</label>
+		<input type="text" id="client_password" name="client_password" placeholder="Повторите Password" >
 		</div>
 		<input type="submit" name="submit" id=submit" value="SEND">
 		<input type="submit" name="submit" id=submit" value="CLEAR">
